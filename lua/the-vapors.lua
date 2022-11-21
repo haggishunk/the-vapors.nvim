@@ -89,7 +89,7 @@ Group.new("Keyword"          , colors.hulk_pants       , nil                , st
 Group.new("Label"            , colors.bolt_blue       , nil                , styles.bold)
 Group.new("LineNr"           , colors.light_gray            , colors.eerie_black)
 Group.new("Macro"            , colors.vapor_blue          , nil                , styles.bold)
-Group.new("MatchParen"       , colors.charcoal      , colors.bolt_blue)
+Group.new("MatchParen"       , colors.bolt_blue      , colors.charcoal)
 Group.new("ModeMsg"          , colors.ice_cyan_dark            , colors.charcoal  , styles.bold)
 Group.new("MoreMsg"          , colors.electro_green)
 Group.new("NonText"          , colors.bolt_blue)
