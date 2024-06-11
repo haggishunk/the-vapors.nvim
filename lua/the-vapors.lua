@@ -83,7 +83,7 @@ Group.new("Float", colors.bolt_blue)
 Group.new("FoldColumn", colors.azure, colors.dark_gray)
 Group.new("Folded", colors.azure)
 Group.new("Function", colors.vivid_sky)
-Group.new("Identifier", colors.bolt_blue) -- is this yaml keywords?
+Group.new("Identifier", colors.vapor_purple) -- is this yaml keywords?
 Group.new("Include", colors.vapor_blue, nil, styles.bold)
 Group.new("IncSearch", colors.charcoal, colors.azure)
 Group.new("jsonKeyword", colors.bolt_blue, nil, styles.bold)
