@@ -32,12 +32,20 @@ Color.new('deep_purple', '#5f5faf')
 Color.new('hulk_pants', '#9145ed')
 
 -- graytones
-Color.new('bone_white', '#e4e4e4')
-Color.new('light_gray', '#808080') -- true gray
+-- Color.new('bone_white', '#e4e4e4')
+-- Color.new('light_gray', '#808080') -- true gray
 Color.new('charcoal', '#303030') -- charcoal
 Color.new('dark_gray', '#262626') -- background
-Color.new('eerie_black', '#1c1c1c')
-Color.new('vampire_black', '#080808')
+-- Color.new('eerie_black', '#1c1c1c')
+-- Color.new('vampire_black', '#080808')
+
+-- graytones with vapor_purple
+Color.new('bone_white', '#f3f3ff')
+Color.new('light_gray', '#7b7bbb') -- true gray
+-- Color.new('charcoal', '#30305f') -- charcoal
+-- Color.new('dark_gray', '#28284c') -- background
+Color.new('eerie_black', '#1b1b33')
+Color.new('vampire_black', '#0d0d19')
 
 -- normal palette customizations
 -- Color.new('background',colors.dark_gray)
@@ -62,6 +70,7 @@ Group.new("Constant", colors.azure, nil, styles.bold)
 Group.new("Character", colors.shock_pink)
 Group.new("Conditional", colors.bolt_blue, nil, styles.bold)
 Group.new("Comment", colors.light_gray)
+Group.new("ColorColumn", nil, colors.vampire_black)
 Group.new("CursorLine", nil, colors.charcoal)
 Group.new("cursorcolumn", nil, colors.dark_gray)
 Group.new("CursorLineNr", colors.vivid_sky, colors.charcoal)
@@ -74,6 +83,7 @@ Group.new("DiagnosticInfo", colors.sky_blue, nil, styles.bold)
 Group.new("DiagnosticHint", colors.deep_purple, nil, styles.bold)
 Group.new("Directory", colors.vivid_sky, nil, styles.bold)
 Group.new("DiffAdd", colors.guppie_green)
+Group.new("DiffChange", colors.cola_blue)
 Group.new("DiffDelete", colors.hulk_pants)
 Group.new("DiffText", colors.charcoal, colors.vapor_purple, styles.bold)
 Group.new("Error", colors.bone_white, colors.hot_pink, styles.bold)
