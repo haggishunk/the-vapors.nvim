@@ -168,3 +168,19 @@ Group.new("markdownh3", colors.vivid_sky, nil, styles.bold)
 Group.new("htmlH1", colors.vivid_sky, nil, styles.bold)
 Group.new("qffilename", colors.ice_cyan_dark, nil, styles.bold)
 Group.new("@variable", colors.cola_blue, nil)
+
+-- NeoTree (absolute color groups only; groups that link to other NeoTree groups are left to NeoTree)
+Group.new("NeoTreeFadeText1", colors.light_gray, nil)              -- faded text (#626262)
+Group.new("NeoTreeFadeText2", colors.charcoal, nil)                -- more faded (#444444)
+Group.new("NeoTreeDotfile", colors.light_gray, nil)                -- dotfiles/hidden (#626262)
+Group.new("NeoTreeDirectoryIcon", colors.vivid_sky, nil)           -- dir icons (#73cef4)
+Group.new("NeoTreeModified", colors.guppie_green, nil)             -- modified indicator (#d7d787)
+Group.new("NeoTreeFloatBorder", colors.charcoal, colors.dark_gray) -- float border (#444444)
+Group.new("NeoTreeGitAdded", colors.electro_green, nil)            -- git added (#5faf5f)
+Group.new("NeoTreeGitDeleted", colors.dark_pink, nil)              -- git deleted (#ff5900)
+Group.new("NeoTreeGitModified", colors.sky_blue, nil)              -- git modified (#d7af5f)
+Group.new("NeoTreeGitConflict", colors.shock_pink, nil, styles.bold) -- conflicts (#ff8700)
+Group.new("NeoTreeGitUntracked", colors.bubble_pink, nil)          -- untracked (#ff8700 italic)
+Group.new("NeoTreeTabInactive", colors.light_gray, colors.eerie_black)           -- inactive tab
+Group.new("NeoTreeTabSeparatorActive", colors.vampire_black, nil)               -- active separator
+Group.new("NeoTreeTabSeparatorInactive", colors.vampire_black, colors.eerie_black) -- inactive separator
